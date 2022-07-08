@@ -1,4 +1,4 @@
-FROM node:14-alpine as todofrontend
+FROM mjgargani/puppeteer:trybe1.0 as todotests
 WORKDIR /
 COPY . .
 ADD node_modules.tar.gz .
